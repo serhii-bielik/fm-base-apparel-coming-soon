@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ff: 'Josefin Sans', sans-serif;
+  --grad-f: linear-gradient(135deg, #ffffff, #fff5f5);
+  --grad-s: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+
+  --clr-pr-red: #ce9797;
+  --clr-pr-soft-red: #f96262;
+  --clr-sc-dark-red: #413a3a;
+}
+
+body {
+  font-family: var(--ff);
+  font-size: 16px;
+  color: var(--clr-pr-red);
+  background: var(--grad-f);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.container {
+}
+.logo {
+}
+.illustration {
+}
+.content {
+}
+.title {
+}
+.description {
+}
+.subscription-form {
+}
+.form-element {
+}
+.email-field {
+}
+.error {
+}
+.button {
+}
