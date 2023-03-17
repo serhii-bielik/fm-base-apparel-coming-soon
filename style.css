@@ -34,9 +34,6 @@ input {
   font: inherit;
 }
 
-.container {
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -111,11 +108,15 @@ input {
   display: none;
   position: absolute;
   right: 4.5rem;
-  top: calc(50% - 0.6rem);
+  top: calc(50% - 1.5rem);
 }
 .error-icon > img {
   height: 1.2rem;
 }
+.textfield-error {
+  border: 1px solid var(--clr-pr-soft-red);
+}
+
 .button {
   position: absolute;
   display: flex;
@@ -137,6 +138,8 @@ input {
   background-color: var(--clr-bg-btn-hover);
   box-shadow: var(--clr-pr-red) 0px 15px 20px -7px;
 }
+
+/* Media desktop */
 @media (min-width: 40rem) {
   .container {
     min-height: 100vh;
